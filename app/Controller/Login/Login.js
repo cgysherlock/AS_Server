@@ -1,4 +1,4 @@
-const Controller = require('../../Core/BaseController');
+const Controller = require('../../core/base_controller');
 
 class LoginViewController extends Controller {
     async login() {
