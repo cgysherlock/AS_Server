@@ -1,3 +1,4 @@
+
 'use strict';
 const util = require('util');
 
@@ -10,8 +11,7 @@ class HomeController extends Controller {
     if (util.isUndefined(result1)) {
       this.ctx.body = 'result1';  
     }
-    
-    
+    this.ctx.body = result1;
   }
 }
 
