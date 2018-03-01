@@ -1,4 +1,4 @@
-const Service = require('egg').Service;
+const Service = require('../../core/base_service').Service;
 
 class LoginService extends Service {
     async findUser() {
